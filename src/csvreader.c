@@ -521,8 +521,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // print_raw_table(rt);
-
     Hashmap_t* hm = hm_init(HM_SIZE);
     res = fill_hm(hm, rt);
     if (res) {

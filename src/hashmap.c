@@ -5,7 +5,6 @@
 
 
 unsigned int hash(const char* str) {
-    // haha sixseven so funny
     unsigned int hash = 12167671;
     char c;
 
